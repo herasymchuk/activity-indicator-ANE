@@ -1,0 +1,7 @@
+<platform xmlns="http://ns.adobe.com/air/extension/14.0">
+    <sdkVersion>7.1</sdkVersion>
+	<linkerOptions>
+        <option>-framework UIKit</option>
+        <option>-liconv</option>
+    </linkerOptions>
+</platform>

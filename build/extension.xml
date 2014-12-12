@@ -1,0 +1,21 @@
+<extension xmlns="http://ns.adobe.com/air/extension/14.0"> 
+    <id>com.trembit.activityindicator</id> 
+    <versionNumber>0.0.1</versionNumber> 
+    <platforms> 
+    	<platform name="Android-ARM">
+            <applicationDeployment>
+                <nativeLibrary>libActivityIndicatorNativeExtension.jar</nativeLibrary>
+                <initializer>com.trembit.activityindicator.ActivityIndicatorNativeExtension</initializer>
+            </applicationDeployment>
+        </platform>
+		<platform name="iPhone-ARM">
+            <applicationDeployment>
+                <nativeLibrary>libActivityIndicatorNativeExtension.a</nativeLibrary>
+                <initializer>AFExtensionInitializer</initializer>
+            </applicationDeployment>
+        </platform>
+        <platform name="default">
+            <applicationDeployment/> 
+        </platform>
+    </platforms> 
+</extension>

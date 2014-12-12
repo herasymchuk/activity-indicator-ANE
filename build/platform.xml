@@ -1,0 +1,11 @@
+<platform xmlns="http://ns.adobe.com/air/extension/14.0">
+    <packagedDependencies> 
+		<packagedDependency>android-support-v4.jar</packagedDependency> 	
+	</packagedDependencies> 
+	<packagedResources>	
+		<packagedResource> 
+			<packageName>com.trembit.activityindicator</packageName> 
+			<folderName>ane-res</folderName> 
+		</packagedResource> 
+	</packagedResources>
+</platform>
