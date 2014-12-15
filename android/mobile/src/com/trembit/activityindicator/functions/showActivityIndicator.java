@@ -35,7 +35,7 @@ public class showActivityIndicator implements FREFunction {
             e.printStackTrace();
         }
 
-        Log.d(ActivityIndicatorNativeExtensionContext.ANE_NAME, "showActivityIndicator c: " + color);
+        //Log.d(ActivityIndicatorNativeExtensionContext.ANE_NAME, "showActivityIndicator c: " + color);
         RelativeLayout.LayoutParams params = new RelativeLayout.LayoutParams(ViewGroup.LayoutParams.WRAP_CONTENT, ViewGroup.LayoutParams.WRAP_CONTENT);
         params.setMargins(xPos, yPos, 0, 0);
         if (!Arrays.asList(AVAILABLE_STYLES).contains(style)) {
@@ -53,8 +53,6 @@ public class showActivityIndicator implements FREFunction {
     }
 
     private class SyncOperation extends AsyncTask<String, Void, String> {
-
-        ProgressDialog progressDialog;
 
         @Override
         protected String doInBackground(String... params) {
